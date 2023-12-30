@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+height: 100vh;
+position: relative;
+
+}
+.box{
+    width: 350px;
+    height:401.98px;
+    border: 1px solid #dbdbdb;
+
+}
+.box img{
+   
+    position: relative;
+    left: 5em;
+    top: 1em;
+    
+}
+
+.form{
+    width: 100%;
+max-width: 350px;
+position: absolute;
+top: 32%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 1px solid #dbdbdb;
+padding: 50px 60px 90px;
+text-align: center;
+}
+
+.box2{
+width: 90%;
+max-width: 350px;
+position: absolute;
+top: 67%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 1px solid #dbdbdb;
+padding: 20px 30px;
+text-align: center;
+}
+.box3{
+width: 91%;
+max-width: 350px;
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 20px 30px;
+text-align: center;
+}
+
+.box3 .app{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.input-field{
+border-radius: 3px;
+display: flex;
+align-items: center;
+background-color: #eaeaea; 
+overflow: hidden;
+}
+#but{
+
+margin-right: 10px;
+}
+.fun{
+border-right: none;
+margin-top: 4px;
+}
+.input-reg button{
+background-color: #4bb4f8;
+border-radius: 10px;
+color: white;
+width: 100%;
+border: none;
+padding: 8px;
+
+
+}
+
+input{
+width: 100%;
+background: transparent;
+outline: none;
+color: black;
+padding: 8px;
+border: 1px solid  #dbdbdb;
+border-right: none;
+}
+input::placeholder{
+font-size: 0.7rem;
+}
+#hide {
+margin-right: 10px;
+display: none;
+
+}
